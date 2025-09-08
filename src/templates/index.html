@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Conversational Agent</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Conversational Agent</h1>
+        <form method="post" action="/generate">
+            <label for="user_input">Enter your query:</label>
+            <input type="text" id="user_input" name="user_input" required>
+            <button type="submit">Submit</button>
+        </form>
+        {% if response %}
+        <div class="response">
+            <h2>Response:</h2>
+            <p>{{ response }}</p>
+        </div>
+        {% endif %}
+        <a href="/download">Download Generated File</a>
+    </div>
+</body>
+</html>
+
