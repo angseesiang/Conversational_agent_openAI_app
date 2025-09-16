@@ -69,20 +69,6 @@ pytest test_agent.py
 
 This will validate that the chatbot generates responses and handles parameters correctly.
 
-### 7) Open in Google Colab (optional)
-
-After uploading this repository to GitHub, you can run it directly in  
-[Google Colab](https://colab.research.google.com) without local setup.  
-
-Use the following link format:
-
-```
-https://colab.research.google.com/github/<your-username>/<your-repo-name>/blob/main/<notebook>.ipynb
-```
-
-Replace `<your-username>`, `<your-repo-name>`, and `<notebook>` with your details.  
-For example, if you create `chatbot_demo.ipynb`, you can open it directly in Colab to test the chatbot in the cloud.
-
 ---
 
 ## 🛠️ Requirements
