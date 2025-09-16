@@ -26,6 +26,8 @@ input[type="text"] {
 }
 
 button {
+    padding: 0.5rem 2rem;
+    background: #007BFF;
     color: white;
     border: none;
     border-radius: 5px;
@@ -45,4 +47,3 @@ a {
     margin-top: 1rem;
     color: #007BFF;
 }
-
